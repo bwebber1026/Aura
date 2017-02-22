@@ -35,3 +35,7 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/osx,jekyll
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
