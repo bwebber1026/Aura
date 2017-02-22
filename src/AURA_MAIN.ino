@@ -32,7 +32,6 @@ void timerIsr() {
 // SPARKING: What chance (out of 255) is there that a new spark will be lit?
 // Higher chance = more roaring fire.  Lower chance = more flickery fire.
 // Default 120, suggested range 50-200.
-#define FRAMES_PER_SECOND 70
 bool gReverseDirection = false;
 #define COOLING  170
 #define SPARKING 10
