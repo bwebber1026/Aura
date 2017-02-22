@@ -1,6 +1,7 @@
 #include <Arduino.h>
-lib_deps = https://github.com/FastLED/FastLED.git
+//lib_deps = https://github.com/FastLED/FastLED.git
 #include <FastLED.h>
+// test
 
 //#include <ClickEncoder.h>
 //#include <TimerOne.h>
