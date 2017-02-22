@@ -1,11 +1,13 @@
 #include <Arduino.h>
 //lib_deps = https://github.com/FastLED/FastLED.git
 #include <FastLED.h>
-// test
+// test num. 2
 
 #include <ClickEncoder.h>
 #include <TimerOne.h>
 //#include <MSGEQ7.h>
+
+
 
 #define DEBUG true
 

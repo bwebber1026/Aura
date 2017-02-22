@@ -47,15 +47,15 @@ void InitRGBEncoder() {
   //12 BIT ENCODER
   encoder = new ClickEncoder(A2, A1, 3, 4);
   //ClickEncoder(ROT_A, ROT_B, SWITCH, RESOLUTION);
-  Timer1.initialize(1000);
-  Timer1.attachInterrupt(timerIsr);
-  encoder->setAccelerationEnabled(true);
-  last = -1;
+  // Timer1.initialize(1000);
+  // Timer1.attachInterrupt(timerIsr);
+  // encoder->setAccelerationEnabled(true);
+  // last = -1;
   //COMMON ANODE RGB LED
-  pinMode(REDPIN,   OUTPUT);
-  pinMode(GREENPIN, OUTPUT);
-  pinMode(BLUEPIN,  OUTPUT);
-  showAnalogRGB(CRGB::Black);
+  // pinMode(REDPIN,   OUTPUT);
+  // pinMode(GREENPIN, OUTPUT);
+  // pinMode(BLUEPIN,  OUTPUT);
+  // showAnalogRGB(CRGB::Black);
 }
 
 void InitNoise() {
