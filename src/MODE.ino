@@ -71,6 +71,9 @@ void MODE() {
     case 18:
       bpm();
       break;
+    default:
+      flex_mono(); //this can be whatever default mode you want
+      break;
   }
 
   // set the blend ratio for the video cross fade
